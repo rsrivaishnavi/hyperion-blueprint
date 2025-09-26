@@ -1,4 +1,4 @@
-import { Mail, Phone, Globe, MapPin } from "lucide-react";
+import { Mail, Phone, Globe, MapPin, Linkedin, Instagram, Facebook } from "lucide-react";
 import htsLogo from "@/assets/hts-logo.png";
 
 const Footer = () => {
@@ -66,6 +66,34 @@ const Footer = () => {
                   8883872262
                 </a>
               </div>
+            </div>
+            
+            {/* Social Media Links */}
+            <div className="flex space-x-4 pt-2">
+              <a 
+                href="https://www.linkedin.com/company/hyperion-technology-solutions/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
+              >
+                <Linkedin className="w-4 h-4 text-primary group-hover:scale-110 transition-transform" />
+              </a>
+              <a 
+                href="https://www.instagram.com/hyperiontechnologysolutions" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
+              >
+                <Instagram className="w-4 h-4 text-primary group-hover:scale-110 transition-transform" />
+              </a>
+              <a 
+                href="https://www.facebook.com/people/Hyperion-Technology-Solutions/61551585942320/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="p-2 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors group"
+              >
+                <Facebook className="w-4 h-4 text-primary group-hover:scale-110 transition-transform" />
+              </a>
             </div>
           </div>
 
