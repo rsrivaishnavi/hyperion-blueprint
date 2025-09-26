@@ -94,7 +94,7 @@ const Contact = () => {
           <div className="space-y-8">
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-foreground">
-                Schedule a Meeting with Our Team
+                Connect with Our Team
               </h3>
               <p className="text-muted-foreground text-lg leading-relaxed">
                 Connect with our experienced professionals to discuss your project requirements 
@@ -128,20 +128,14 @@ const Contact = () => {
               ))}
             </div>
 
-            {/* CTA Card */}
+            {/* Contact Info Card */}
             <Card className="bg-gradient-primary border-0 text-primary-foreground">
               <CardContent className="p-8 text-center space-y-4">
                 <Calendar className="w-12 h-12 mx-auto opacity-90" />
-                <h4 className="text-xl font-semibold">Ready to Get Started?</h4>
+                <h4 className="text-xl font-semibold">Ready to Transform Your Business?</h4>
                 <p className="opacity-90">
-                  Schedule a consultation to discuss your project requirements and timeline.
+                  Connect with us to discuss your project requirements and discover innovative solutions tailored to your business needs.
                 </p>
-                <Button 
-                  variant="secondary" 
-                  className="bg-white text-primary hover:bg-gray-100"
-                >
-                  Book a Meeting
-                </Button>
               </CardContent>
             </Card>
           </div>

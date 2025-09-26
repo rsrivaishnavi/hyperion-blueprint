@@ -53,25 +53,6 @@ const Hero = () => {
             </p>
           </div>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
-            <Button
-              size="lg"
-              onClick={() => scrollToSection("#services")}
-              className="bg-gradient-primary hover:shadow-primary text-lg px-8 py-6"
-            >
-              Explore Our Services
-              <ArrowRight className="ml-2 h-5 w-5" />
-            </Button>
-            <Button
-              variant="outline"
-              size="lg"
-              onClick={() => scrollToSection("#contact")}
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground text-lg px-8 py-6"
-            >
-              Schedule a Meeting
-            </Button>
-          </div>
 
           {/* Stats */}
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 pt-16 max-w-4xl mx-auto">
